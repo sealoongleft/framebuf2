@@ -27,4 +27,4 @@ class FrameBuffer(framebuf.FrameBuffer):
                         for k in range (x+i*m, x+(i+1)*m):
                             for l in range (y+j*m, y+(j+1)*m):
                                 self.pixel(k, l, c)
-            x=x+8*m
+            x+=8*m
